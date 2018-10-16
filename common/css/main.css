@@ -1,0 +1,77 @@
+html, body {
+    background: #fff;
+    font-size: 18px;
+    color: #606060;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+a {
+    color: #606060;
+    transition: all 0.2 ease-in-out;
+}
+
+a:hover,
+a:focus {
+    color: #85bdca;
+}
+
+.container-fluid {
+    margin: 60px auto;
+    max-width: 1400px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 320px;;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nav a {
+    text-transform: lowercase;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+}
+
+.artwork .art a {
+    display: inline-block;
+    background: #85bdca;
+    width: 100%;
+}
+
+.artwork .art a img {
+    width: 100%;
+    height: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.artwork .art a:hover img,
+.artwork .art a:focus img {
+    opacity: 0.4;
+}
+
+.artwork {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .artwork {
+        margin-bottom: 0px;
+    }
+    .artwork .art {
+        margin-bottom: 30px;
+    }
+
+    .logo img {
+        max-width: 100%;
+        padding: 30px;
+    }
+
+}
