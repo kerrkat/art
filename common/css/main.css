@@ -62,6 +62,11 @@ a:focus {
 }
 
 @media (max-width: 768px) {
+
+    .container-fluid {
+        margin: 30px auto;
+    }
+
     .artwork {
         margin-bottom: 0px;
     }
