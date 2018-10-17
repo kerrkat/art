@@ -40,6 +40,10 @@ a:focus {
     padding: 0;
 }
 
+.nav a.active {
+    color: #85bdca;
+}
+
 .artwork .art {
     padding: 0;
 }
